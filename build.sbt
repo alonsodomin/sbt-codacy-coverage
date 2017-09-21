@@ -4,8 +4,6 @@ name := "sbt-codacy-coverage"
 
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.10.4"
-
 scalacOptions := Seq("-deprecation", "-feature", "-unchecked", "-Ywarn-adapted-args", "-Xlint", "-Xfatal-warnings")
 
 sbtPlugin := true
